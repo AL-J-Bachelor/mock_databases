@@ -7,4 +7,4 @@ CREATE TABLE ddfs (
 	manufacturer TEXT NOT NULL,
 	model TEXT,
 	dce_serial UUID NOT NULL
-)
+);
