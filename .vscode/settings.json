@@ -1,0 +1,31 @@
+{
+	"sqltools.connections": [
+		{
+			"previewLimit": 50,
+			"server": "localhost",
+			"port": 5432,
+			"driver": "PostgreSQL",
+			"name": "ddf",
+			"database": "ddf",
+			"username": "admin"
+		},
+		{
+			"previewLimit": 50,
+			"server": "localhost",
+			"port": 5433,
+			"driver": "PostgreSQL",
+			"name": "gps",
+			"database": "gps",
+			"username": "admin"
+		},
+		{
+			"previewLimit": 50,
+			"server": "localhost",
+			"port": 5434,
+			"driver": "PostgreSQL",
+			"name": "pim",
+			"database": "pim",
+			"username": "admin"
+		}
+	]
+}
