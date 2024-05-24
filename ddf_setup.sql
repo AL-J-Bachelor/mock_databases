@@ -1,7 +1,7 @@
 DROP TABLE IF EXISTS ddfs;
 
 CREATE TABLE ddfs (
-	id SERIAL PRIMARY KEY DEFAULT gen_random_uuid(),
+	id TEXT PRIMARY KEY DEFAULT gen_random_uuid(),
 	device_type TEXT NOT NULL,
 	sku_number TEXT,
 	manufacturer TEXT NOT NULL,
