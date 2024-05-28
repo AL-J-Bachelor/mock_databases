@@ -6,5 +6,5 @@ CREATE TABLE ddfs (
 	sku_number TEXT,
 	manufacturer TEXT NOT NULL,
 	model TEXT,
-	dce_serial UUID NOT NULL
+	dce_serial TEXT NOT NULL
 );
