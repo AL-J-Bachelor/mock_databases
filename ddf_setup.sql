@@ -6,5 +6,6 @@ CREATE TABLE ddfs (
 	sku_number TEXT,
 	manufacturer TEXT NOT NULL,
 	model TEXT,
-	dce_serial TEXT NOT NULL
+	dce_serial TEXT NOT NULL,
+	UNIQUE NULLS NOT DISTINCT (sku_number, manufacturer, model)
 );

@@ -9,5 +9,6 @@ CREATE TABLE products (
     dce_serial_number TEXT NOT NULL,
     width FLOAT NOT NULL,
     height FLOAT NOT NULL,
-    depth FLOAT NOT NULL
+    depth FLOAT NOT NULL,
+    UNIQUE (sku_number, manufacturer, model)
 );
