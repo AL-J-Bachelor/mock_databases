@@ -3,7 +3,7 @@ DROP TABLE IF EXISTS products;
 CREATE TABLE products (
 	id SERIAL PRIMARY KEY,
     sku_number TEXT NOT NULL,
-    device_type TEXT NOT NULL,
+    type TEXT NOT NULL,
     manufacturer TEXT NOT NULL,
     model TEXT,
     dce_serial_number TEXT NOT NULL,
