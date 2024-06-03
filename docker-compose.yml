@@ -1,13 +1,4 @@
 services:
-  grafana:
-    image: grafana/grafana-enterprise
-    restart: unless-stopped
-    ports:
-      - '3000:3000'
-    volumes:
-      - 'grafana-storage:/var/lib/grafana'
-    networks:
-      - my-network
   ddf:
     image: postgres
     ports:
